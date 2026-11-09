@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Política de privacidad y soporte de LingoLyrics, la app para aprender idiomas cantando.">
-<title>Privacidad de LingoLyrics</title>
+<meta name="description" content="LingoLyrics, la app para iPhone que te enseña inglés y portugués cantando: letra sincronizada, pronunciación, traducción y puntaje. Política de privacidad y soporte.">
+<title>LingoLyrics</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
@@ -71,6 +71,10 @@ td:first-child { font: 600 14px/1.5 var(--ui); white-space: nowrap; }
 .email { font: 600 17px/1.4 var(--ui); user-select: all; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; }
 button.copy { font: 600 14px/1 var(--ui); color: #fff; background: var(--accent); border: 0; border-radius: 10px; padding: 11px 14px; cursor: pointer; }
 .lang-split { border: 0; border-top: 1px solid var(--line); margin: 8px 0 0; }
+a.store { justify-self: start; font: 600 15px/1 var(--ui); color: #fff; background: var(--accent); text-decoration: none; border-radius: 12px; padding: 14px 18px; }
+h2.part { font-size: 28px; padding-top: 8px; border-top: 1px solid var(--line); }
+.updated { font: 500 13px/1.4 var(--ui); color: var(--muted); }
+footer a { color: var(--muted); }
 footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
 @media (prefers-reduced-motion: no-preference) { nav.toc a { transition: color .15s; } }
 </style>
@@ -80,14 +84,32 @@ footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
 <main>
   <header>
     <div class="brand"><span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>Lingo<b>Lyrics</b></div>
-    <h1>Privacidad y soporte</h1>
-    <p class="lede">LingoLyrics te ayuda a aprender idiomas cantando. No tiene cuentas propias, ni servidor, ni publicidad, ni analítica.</p>
-    <div class="meta"><span>Vigente desde el 7 de noviembre de 2026</span><a href="#en">Read in English</a></div>
+    <h1>Aprende idiomas cantando</h1>
+    <p class="lede">LingoLyrics es una app para iPhone que convierte tus canciones favoritas en clases de inglés y portugués. Se conecta con tu música de Apple Music o YouTube, muestra la letra sincronizada con su pronunciación y su traducción, y te da un puntaje mientras cantas.</p>
+    <a class="store" href="https://apps.apple.com/app/id6818664563">Descargar en la App Store</a>
+    <div class="meta"><a href="#en">Read in English</a></div>
   </header>
 
   <nav class="toc" aria-label="Contenido">
-    <a href="#resumen">Resumen</a><a href="#iphone">En tu iPhone</a><a href="#microfono">Micrófono</a><a href="#servicios">Servicios externos</a><a href="#youtube">YouTube</a><a href="#soporte">Soporte</a>
+    <a href="#app">La app</a><a href="#privacidad">Privacidad</a><a href="#youtube">YouTube</a><a href="#soporte">Soporte</a><a href="terminos.html">Términos de uso</a>
   </nav>
+
+  <section id="app">
+    <h2>Qué hace</h2>
+    <ul>
+      <li><strong>Canta:</strong> la letra avanza al ritmo de la música, con karaoke palabra por palabra.</li>
+      <li><strong>Pronuncia:</strong> bajo cada línea ves cómo suena, en fonética figurada o en IPA.</li>
+      <li><strong>Entiende:</strong> la traducción de cada línea al español, inglés o portugués.</li>
+      <li><strong>Mejora:</strong> mientras cantas, la app escucha tu voz y le pone puntaje a cada línea.</li>
+      <li><strong>Tu música:</strong> usa tu biblioteca y tus playlists de Apple Music o de YouTube.</li>
+    </ul>
+  </section>
+
+  <section id="privacidad">
+    <h2 class="part">Política de privacidad</h2>
+    <p class="updated">Vigente desde el 7 de noviembre de 2026 · Actualizada el 9 de noviembre de 2026</p>
+    <p>LingoLyrics no tiene cuentas propias, ni servidor, ni publicidad, ni analítica.</p>
+  </section>
 
   <div class="summary" id="resumen">
     <h2>En resumen</h2>
@@ -129,9 +151,11 @@ footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
   </section>
 
   <section id="youtube">
-    <h2>YouTube Music</h2>
-    <p>Si conectas YouTube Music, inicias sesión con Google y autorizas acceso de solo lectura a tu cuenta de YouTube (permiso <code>youtube.readonly</code>). LingoLyrics usa los Servicios de API de YouTube para mostrar tus playlists y los videos que te gustan y para buscar, y reproduce los videos con el reproductor oficial de YouTube. El acceso queda guardado en tu iPhone y no se comparte con nadie.</p>
-    <p>Al usar esta función aceptas las <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Condiciones del Servicio de YouTube</a>, y Google trata tus datos según su <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad</a>. Para desconectar, toca Desconectar en Ajustes de la app o quita el acceso en <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">la configuración de seguridad de tu cuenta de Google</a>.</p>
+    <h2>YouTube</h2>
+    <p>Si conectas YouTube, inicias sesión con Google y autorizas acceso de solo lectura a tu cuenta de YouTube (permiso <code>youtube.readonly</code>). LingoLyrics usa los Servicios de API de YouTube para mostrar tus playlists y los videos que te gustan y para buscar, y reproduce los videos con el reproductor oficial de YouTube. La app nunca modifica tu cuenta.</p>
+    <p>El acceso se guarda solo en el llavero (Keychain) de tu iPhone. Tus playlists, tus videos y tus búsquedas se piden a YouTube cada vez que los abres y solo se muestran en pantalla. De las canciones que reproduces, la app guarda en el iPhone el identificador del video, el título y el artista junto con su letra, para no volver a buscarla. Nada de esto se envía ni se comparte con nadie: LingoLyrics no tiene servidor. Para borrarlo, elimina la app.</p>
+    <p>El uso que LingoLyrics hace de la información recibida de las API de Google cumple la <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Política de Datos del Usuario de los Servicios de API de Google</a>, incluidos los requisitos de Uso Limitado.</p>
+    <p>Al usar esta función aceptas las <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Condiciones del Servicio de YouTube</a>, y Google trata tus datos según su <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad</a>. Para desconectar, toca Desconectar en Ajustes de la app (eso borra el acceso guardado en tu iPhone) o quita el acceso en <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">la configuración de seguridad de tu cuenta de Google</a>.</p>
   </section>
 
   <section>
@@ -164,10 +188,32 @@ footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
   <hr class="lang-split">
 
   <header id="en">
-    <h1>Privacy and support</h1>
-    <p class="lede">LingoLyrics helps you learn languages by singing. It has no accounts of its own, no server, no ads and no analytics.</p>
-    <div class="meta"><span>Effective November 7, 2026</span><a href="#resumen">Leer en español</a></div>
+    <h1>Learn languages by singing</h1>
+    <p class="lede">LingoLyrics is an iPhone app that turns your favorite songs into English and Portuguese lessons. It connects to your music on Apple Music or YouTube, shows synced lyrics with their pronunciation and translation, and scores you as you sing.</p>
+    <a class="store" href="https://apps.apple.com/app/id6818664563">Download on the App Store</a>
+    <div class="meta"><a href="#app">Leer en español</a></div>
   </header>
+
+  <nav class="toc" aria-label="Contents">
+    <a href="#about">The app</a><a href="#privacy">Privacy</a><a href="#youtube-en">YouTube</a><a href="#support">Support</a><a href="terminos.html#en">Terms of use</a>
+  </nav>
+
+  <section id="about">
+    <h2>What it does</h2>
+    <ul>
+      <li><strong>Sing:</strong> lyrics move with the music, with word-by-word karaoke.</li>
+      <li><strong>Pronounce:</strong> under every line you see how it sounds, as a simple respelling or in IPA.</li>
+      <li><strong>Understand:</strong> each line translated into Spanish, English or Portuguese.</li>
+      <li><strong>Improve:</strong> as you sing, the app listens to your voice and scores every line.</li>
+      <li><strong>Your music:</strong> use your library and playlists from Apple Music or YouTube.</li>
+    </ul>
+  </section>
+
+  <section id="privacy">
+    <h2 class="part">Privacy policy</h2>
+    <p class="updated">Effective November 7, 2026 · Updated November 9, 2026</p>
+    <p>LingoLyrics has no accounts of its own, no server, no ads and no analytics.</p>
+  </section>
 
   <div class="summary">
     <h2>In short</h2>
@@ -208,10 +254,12 @@ footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
     <p>Each service handles that information under its own privacy policy.</p>
   </section>
 
-  <section>
-    <h2>YouTube Music</h2>
-    <p>If you connect YouTube Music, you sign in with Google and grant read-only access to your YouTube account (the <code>youtube.readonly</code> scope). LingoLyrics uses the YouTube API Services to show your playlists and liked videos and to search, and plays videos with the official YouTube player. Access is stored on your iPhone and is never shared.</p>
-    <p>By using this feature you agree to the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>, and Google handles your data under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. To disconnect, tap Disconnect in the app's Settings or remove access in <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">your Google account security settings</a>.</p>
+  <section id="youtube-en">
+    <h2>YouTube</h2>
+    <p>If you connect YouTube, you sign in with Google and grant read-only access to your YouTube account (the <code>youtube.readonly</code> scope). LingoLyrics uses the YouTube API Services to show your playlists and liked videos and to search, and plays videos with the official YouTube player. The app never modifies your account.</p>
+    <p>Access is stored only in your iPhone's Keychain. Your playlists, videos and searches are requested from YouTube each time you open them and are only shown on screen. For songs you play, the app stores the video ID, title and artist on your iPhone along with the lyrics, so it doesn't have to look them up again. None of this is sent to or shared with anyone: LingoLyrics has no server. Delete the app to erase it.</p>
+    <p>LingoLyrics' use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>By using this feature you agree to the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>, and Google handles your data under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. To disconnect, tap Disconnect in the app's Settings (this deletes the access stored on your iPhone) or remove access in <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">your Google account security settings</a>.</p>
   </section>
 
   <section>
@@ -224,7 +272,7 @@ footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
     <p>LingoLyrics is not directed to children under 13. If this policy changes, we'll update the effective date on this page.</p>
   </section>
 
-  <section>
+  <section id="support">
     <h2>Support</h2>
     <h3>The music cuts out or my score is low</h3>
     <p>Sing with headphones. Through the speaker, the microphone hears the song as well as your voice.</p>
@@ -241,7 +289,7 @@ footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
     </div>
   </section>
 
-  <footer>© 2026 Crispiz · LingoLyrics</footer>
+  <footer>© 2026 Crispiz · LingoLyrics · <a href="#privacidad">Privacidad</a> / <a href="#privacy">Privacy</a> · <a href="terminos.html">Términos de uso</a> / <a href="terminos.html#en">Terms of use</a></footer>
 </main>
 
 <script>

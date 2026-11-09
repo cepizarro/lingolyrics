@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Términos de uso de LingoLyrics, la app para aprender idiomas cantando.">
+<title>Términos de LingoLyrics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Mismo sistema visual que index.html: una columna de lectura con títulos en Poppins. */
+:root {
+  --bg: #fbfafa; --surface: #ffffff; --fg: #141213; --muted: #5e5759; --line: #e7e1e2;
+  --accent: #c8102e; --accent-soft: #fbe9ec;
+  --display: "Poppins", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --ui: "Poppins", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e0c0d; --surface: #181516; --fg: #f3eff0; --muted: #a79fa1;
+    --line: #2c2627; --accent: #ff4d5e; --accent-soft: #2a1418; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e0c0d; --surface: #181516; --fg: #f3eff0; --muted: #a79fa1;
+  --line: #2c2627; --accent: #ff4d5e; --accent-soft: #2a1418; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); margin: 0;
+  font: 17px/1.65 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+main { max-width: 42rem; margin: 0 auto; padding-block: 40px 72px; display: grid; gap: 36px; }
+header { display: grid; gap: 14px; }
+.brand { display: flex; align-items: center; gap: 10px; font: 600 18px/1 var(--display); color: var(--fg); text-decoration: none; }
+.bars { display: inline-flex; align-items: center; gap: 3px; height: 22px; }
+.bars span { width: 4px; border-radius: 2px; background: var(--accent); }
+.bars span:nth-child(1) { height: 22px; } .bars span:nth-child(2) { height: 14px; } .bars span:nth-child(3) { height: 9px; }
+.brand b { color: var(--accent); font-weight: 600; }
+h1 { font: 700 clamp(30px, 6vw, 42px)/1.15 var(--display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+.lede { font-size: 19px; color: var(--muted); margin: 0; }
+.meta { font: 500 13px/1.4 var(--ui); color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; }
+section { display: grid; gap: 12px; }
+h2 { font: 600 22px/1.3 var(--display); margin: 0; text-wrap: balance; }
+p { margin: 0; }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.notice { background: var(--accent-soft); border-radius: 14px; padding: 18px 20px; display: grid; gap: 10px; }
+.lang-split { border: 0; border-top: 1px solid var(--line); margin: 8px 0 0; }
+footer { font: 500 13px/1.5 var(--ui); color: var(--muted); }
+footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <a class="brand" href="./"><span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>Lingo<b>Lyrics</b></a>
+    <h1>Términos de uso</h1>
+    <p class="lede">Las reglas para usar LingoLyrics, en pocas palabras.</p>
+    <div class="meta"><span>Vigentes desde el 9 de noviembre de 2026</span><a href="#en">Read in English</a></div>
+  </header>
+
+  <section>
+    <h2>1. Aceptación</h2>
+    <p>Al descargar o usar LingoLyrics aceptas estos términos y la <a href="./#privacidad">política de privacidad</a>. Además rige el <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Contrato de Licencia de Usuario Final estándar de Apple</a>. Si no estás de acuerdo, no uses la app.</p>
+  </section>
+
+  <section>
+    <h2>2. Qué es LingoLyrics</h2>
+    <p>LingoLyrics es una herramienta gratuita para aprender idiomas: muestra la letra de la canción que suena con su pronunciación y su traducción, y evalúa tu pronunciación cuando cantas. Para la música se conecta con servicios de terceros que tú eliges.</p>
+  </section>
+
+  <section class="notice" id="youtube">
+    <h2>3. YouTube</h2>
+    <p>LingoLyrics usa los Servicios de API de YouTube. <strong>Al conectar YouTube o usar cualquier función de YouTube en la app, aceptas quedar sujeto a las <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Condiciones del Servicio de YouTube</a>.</strong> Google trata tus datos según la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>.</p>
+    <p>Puedes desconectar YouTube en cualquier momento en Ajustes de la app o en <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">la configuración de seguridad de tu cuenta de Google</a>. LingoLyrics no está afiliada a YouTube ni a Google, ni cuenta con su patrocinio.</p>
+  </section>
+
+  <section>
+    <h2>4. Otros servicios de terceros</h2>
+    <p>Apple Music, LRCLIB (letras) y MyMemory (traducción de respaldo) tienen sus propias condiciones, que también se aplican cuando la app los usa por ti. Algunas funciones dependen de tener una suscripción en esos servicios, como reproducir canciones del catálogo de Apple Music. LingoLyrics no controla esos servicios y no responde si cambian, fallan o dejan de estar disponibles.</p>
+  </section>
+
+  <section>
+    <h2>5. Música y letras</h2>
+    <p>La música, los videos y las letras pertenecen a sus autores y titulares de derechos. LingoLyrics no los aloja ni los distribuye: la música suena desde el servicio que conectaste y la letra se consulta al momento para la canción que estás escuchando. Úsalos solo para tu aprendizaje personal.</p>
+  </section>
+
+  <section>
+    <h2>6. Uso aceptable</h2>
+    <ul>
+      <li>No uses la app para copiar, descargar o redistribuir música, videos o letras.</li>
+      <li>No intentes alterar la app, eludir sus límites ni usarla para sobrecargar los servicios a los que se conecta.</li>
+      <li>Usa la app de acuerdo con la ley y con las condiciones de cada servicio que conectes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Sin garantías</h2>
+    <p>La app se ofrece "tal cual". Las letras pueden tener errores o desfases, las traducciones son automáticas y los puntajes de pronunciación son aproximados. En la medida en que la ley lo permita, el desarrollador no responde por daños derivados del uso de la app.</p>
+  </section>
+
+  <section>
+    <h2>8. Cambios y contacto</h2>
+    <p>Si estos términos cambian, actualizaremos la fecha de esta página. Para preguntas, escríbenos a <a href="mailto:cpizarrom@icloud.com">cpizarrom@icloud.com</a>.</p>
+  </section>
+
+  <hr class="lang-split">
+
+  <header id="en">
+    <h1>Terms of use</h1>
+    <p class="lede">The rules for using LingoLyrics, in a few words.</p>
+    <div class="meta"><span>Effective November 9, 2026</span><a href="#">Leer en español</a></div>
+  </header>
+
+  <section>
+    <h2>1. Acceptance</h2>
+    <p>By downloading or using LingoLyrics you agree to these terms and the <a href="./#privacy">privacy policy</a>. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Apple's standard Licensed Application End User License Agreement</a> also applies. If you don't agree, don't use the app.</p>
+  </section>
+
+  <section>
+    <h2>2. What LingoLyrics is</h2>
+    <p>LingoLyrics is a free language-learning tool: it shows the lyrics of the song that's playing with their pronunciation and translation, and scores your pronunciation as you sing. For music, it connects to third-party services you choose.</p>
+  </section>
+
+  <section class="notice" id="youtube-en">
+    <h2>3. YouTube</h2>
+    <p>LingoLyrics uses the YouTube API Services. <strong>By connecting YouTube or using any YouTube feature in the app, you agree to be bound by the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>.</strong> Google handles your data under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+    <p>You can disconnect YouTube at any time in the app's Settings or in <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">your Google account security settings</a>. LingoLyrics is not affiliated with, sponsored or endorsed by YouTube or Google.</p>
+  </section>
+
+  <section>
+    <h2>4. Other third-party services</h2>
+    <p>Apple Music, LRCLIB (lyrics) and MyMemory (fallback translation) have their own terms, which also apply when the app uses them on your behalf. Some features require a subscription to those services, such as playing Apple Music catalog songs. LingoLyrics doesn't control those services and isn't responsible if they change, fail or become unavailable.</p>
+  </section>
+
+  <section>
+    <h2>5. Music and lyrics</h2>
+    <p>Music, videos and lyrics belong to their authors and rights holders. LingoLyrics doesn't host or distribute them: music plays from the service you connected, and lyrics are looked up at the moment for the song you're listening to. Use them only for your personal learning.</p>
+  </section>
+
+  <section>
+    <h2>6. Acceptable use</h2>
+    <ul>
+      <li>Don't use the app to copy, download or redistribute music, videos or lyrics.</li>
+      <li>Don't try to tamper with the app, get around its limits or use it to overload the services it connects to.</li>
+      <li>Use the app lawfully and in line with the terms of every service you connect.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. No warranty</h2>
+    <p>The app is provided "as is". Lyrics may have errors or be out of sync, translations are automatic and pronunciation scores are approximate. To the extent the law allows, the developer is not liable for damages arising from use of the app.</p>
+  </section>
+
+  <section>
+    <h2>8. Changes and contact</h2>
+    <p>If these terms change, we'll update the date on this page. For questions, write to <a href="mailto:cpizarrom@icloud.com">cpizarrom@icloud.com</a>.</p>
+  </section>
+
+  <footer>© 2026 Crispiz · LingoLyrics · <a href="./">Inicio / Home</a> · <a href="./#privacidad">Privacidad</a> / <a href="./#privacy">Privacy</a></footer>
+</main>
+
+</body>
+</html>
